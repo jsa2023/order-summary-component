@@ -13,12 +13,14 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     background-color: hsl(225, 100%, 94%);
+    background-image: url("./images/pattern-background-desktop.svg");
 }
 
 .card {
     border: 2px solid black;
     width: 45.4rem;
     margin: 10rem auto;
+    border-radius: 15px;
 }
 
 .image-container {
@@ -26,5 +28,10 @@ body {
 }
 
 .image {
+    min-width: 100%;
+}
 
+.content-container {
+    background-color: #ffffff;
+    padding: 5rem;
 }
