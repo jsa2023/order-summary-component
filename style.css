@@ -1,5 +1,5 @@
 * {
-    width: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -12,9 +12,19 @@ body {
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: hsl(225, 100%, 94%
+    background-color: hsl(225, 100%, 94%);
 }
 
 .card {
+    border: 2px solid black;
+    width: 45.4rem;
+    margin: 10rem auto;
+}
+
+.image-container {
     
+}
+
+.image {
+
 }
