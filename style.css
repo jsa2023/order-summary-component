@@ -9,6 +9,9 @@ html {
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -18,77 +21,103 @@ body {
 
 p {
     font-size: 1.6rem;
+    color: gray;
 }
 
 .card {
-    width: 30%;
-    height: fit-content;
-    position: absolute;
-    inset: 0;
+    outline: 1px solid black;
+    width: 20%;
     margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
     background-color: #ffffff;
-    border-radius: 25px;
 }
 
 .hero-image-container {
+    max-width: 100%;
 }
 
 .hero-image {
-    min-width: 100%;
+    width: 100%;
 }
 
 .content-container {
-    padding: 5rem;
+    padding: 3.5rem;
 }
 
 .top {
+    outline: 1px solid green;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .title {
-    margin-bottom: 1.5rem;
-    font-size: 2.4rem;
+    padding-bottom: 1.5rem;
     font-weight: 900;
 }
 
 .description {
-    line-height: 2.2rem;
-    color: gray;
-    margin-bottom: 1.5rem;
+    
+}
+
+.bottom {
+
 }
 
 .plan-type {
     background-color: hsl(225, 100%, 98%);
-    padding: 3rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
 }
 
 .left-side {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .right-side {
-    display: flex;
-}
-
-.right-side a {
+    outline: 1px solid red;
     align-self: center;
     font-size: 1.6rem;
 }
 
 .music-icon-image-container {
-    width: 5rem;
-    height: 5rem;
+    
 }
 
 .music-icon-image {
-    min-width: 100%;
+    max-width: 100%;
 }
 
 .text {
     
+}
+
+.text h2 {
+    font-weight: 900;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    background-color:  hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.bottom a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-size: 1.6rem;
 }
